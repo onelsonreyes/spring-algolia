@@ -10,6 +10,9 @@ import javax.validation.constraints.NotNull;
 public class AvocadoRequest {
 
     @NotNull
+    private String id;
+
+    @NotNull
     private String name;
 
     @NotNull
